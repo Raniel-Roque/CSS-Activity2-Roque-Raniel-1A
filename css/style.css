@@ -1,5 +1,5 @@
 #mywebsite {
-    background-color: lightgrey;
+    background-color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -24,4 +24,37 @@
     color: white;
     font-size: 18px;
     text-align: center;
+}
+
+#blog{
+
+}
+
+#blog h2{
+    margin-top: 100px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#blog div{
+    width: 350px;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+    align-content: justify;
+}
+
+#blog div img{
+    width: 100%
+}
+
+#blog div h3{
+    padding-left: 25px;
+    padding-right: 5px;
+}
+
+#blog div p{
+    padding-left: 25px;
+    padding-right: 50px;
+    text-align: justify;
 }
