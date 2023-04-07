@@ -38,12 +38,12 @@
     font-size: 30px;
     text-align: center;
     flex-basis: 100%;
-    
 }
 
 #blog > div{
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 100px;
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
     flex-basis: 20%;
     height: 325px;
@@ -91,7 +91,42 @@
     color: #fcfcfc;
 }
 
-#blog > div[title="Featured Post"] > a:hover{
+#blog > div > a:hover{
     color: red;
 }
 
+#services {
+    background-color: lightgray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#services > h2{
+    padding-top: 150px;
+    font-size: 30px;
+    text-align: center;
+    flex-basis: 100%;
+}
+
+#services > ul {
+    white-space:nowrap;
+    padding-bottom: 90px;
+}
+
+#services > ul > li{
+    display:inline-block;
+    list-style-type: none;  
+    text-align: center;
+    padding: 25px 60px 25px 60px;
+    margin: 0px 15px 0px 10px;
+    background-color: white;
+}
+
+#services > ul > li:first-child{ 
+    background-color: red;
+}
+
+#services > ul > li:hover{
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+}
