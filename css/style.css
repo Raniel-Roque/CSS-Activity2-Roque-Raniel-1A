@@ -46,44 +46,49 @@
     margin-right: 10px;
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
     flex-basis: 20%;
-    height: 420px;
-
+    height: 325px;
+    border: 2px solid lightgray;
+    border-radius: 10px;
 }
 
 #blog > div > img{
-    width: 100%;
+    width: 270px;
+    height: 140px;
+    object-fit: cover;
 }
 
 #blog > div > h3{
-    padding: 0px 5px 0px 25px;
+    padding: 0px 5px 0px 23px;
 }
 
 #blog > div > p{
-    padding: 0px 20px 10px 25px;
+    padding: 0px 35px 10px 20px;
     text-align: justify;
+    font-size: 13px;
 }
 
 #blog > div > a{
-    padding: 0px 20px 0px 25px;
+    padding: 0px 20px 0px 20px;
     text-decoration: none;
     color: lightslategray;
+    font-size: 13px;
 }
 
 #blog > div[title="Featured Post"]{
-    background-color: black;
-    border: 2px solid black;
+    background-color: #1b1b1b;
+    border: 2px solid #1b1b1b;
 }
 
 #blog > div[title="Featured Post"] > h3{
-    color: white;
+    color: #fcfcfc;
 }
 
 #blog > div[title="Featured Post"] > p{
-    color: white;
+    color: #fcfcfc;
 }
 
 #blog > div[title="Featured Post"] > a{
-    color: white;
+    color: #fcfcfc;
 }
 
 #blog > div[title="Featured Post"] > a:hover{
